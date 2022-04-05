@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>And now, The Weather</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="mb-2 bg-dark text-white text-center">
+            <h1>Waiting for the bus in the rain</h1>
+        </div>
+
+        <div class="container col-12">
+            <div class="input-group-text col">
+                <input type="text" class="form-control" placeholder="Atlanta" id="cityInput">
+                <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+            </div>
+
+            <div class="col-8" id="big-forecast">
+                <div class="card bg-light mb-3" style="max-width: 50rem;">
+                    <div class="card-header" id="city-name-big"></div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="big-city-weather"></h5>
+                      <p class="card-text" id="big-city-stuff"></p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-4" id="small-forecast">
+                <div class="card bg-light mb-3 col-6" style="max-width: 18rem;">
+                    <div class="card-header" id="day1"></div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="day1-forecast"></h5>
+                      <p class="card-text" id="day1-wind"></p>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 col-6" style="max-width: 18rem;">
+                    <div class="card-header" id="day2"></div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="day2-forecast"></h5>
+                      <p class="card-text" id="day2-wind"></p>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 col-6" style="max-width: 18rem;">
+                    <div class="card-header" id="day3"></div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="day3-forecast"></h5>
+                      <p class="card-text" id="day3-wind"></p>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 col-6" style="max-width: 18rem;">
+                    <div class="card-header" id="day4"></div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="day4-forecast"></h5>
+                      <p class="card-text" id="day4-wind"></p>
+                    </div>
+                  </div>
+                  <div class="card bg-light mb-3 col-6" style="max-width: 18rem;">
+                    <div class="card-header" id="day5"></div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="day5-forecast"></h5>
+                      <p class="card-text" id="day5-wind"></p>
+                    </div>
+                  </div>
+            </div>
+
+
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
